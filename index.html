@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>The instagram feed Bootstrap</title>
+</head>
+
+<body>
+
+	<nav class="navbar fixed-top navbar-light bg-light">
+		<div class="col-8">
+			<a class="navbar-brand logoFont" href="#"><img src="https://i.pinimg.com/474x/54/c2/49/54c249b32b50076c1289782ba1db6356.jpg" width="50" height="50" alt="instagram logo" class="instaLogo">
+				<span class="instaBrand">Instagram</span>
+			</a>
+		</div>
+		<div class="col-2">
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModal">
+                     Create a new post
+                    </button>
+		</div>
+		<div class="col-2">
+			<ul>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle dropdownColor float-left " href="#" id="navbarDropdown"
+						role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<span class="material-icons">
+                                settings
+                            </span>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<ul class="nav nav-tabs justify-content-center navTopM" id="myTab" role="tablist">
+					<li class="nav-pills" role="presentation">
+						<a class="nav-link navColor" href="#squaresFull"
+							data-toggle="tab"><span class="material-icons">crop_square</span></a>
+
+					</li>
+					<li class="nav-pills" role="presentation">
+						<a class="nav-link active navColor" href="#centersquare"
+							data-toggle="tab"><span class="material-icons">apps</span></a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade " id="squaresFull" role="tabpanel" aria-labelledby="squaresFull">
+						<div class="row">
+							<div class="card align-item-center justify-content-center cardMasonrySize">
+								<div class="card-header">
+									Hello world
+								</div>
+								<img src="https://cdn.pixabay.com/photo/2020/03/17/17/08/woman-4941164_1280.jpg" class="card-img-top" alt="work">
+								<div class="card-body">
+									<h5 class="card-title">90 Likes</h5>
+									<p class="card-text">Loving my new job #work #coding </p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="card align-item-center justify-content-center cardMasonrySize">
+								<div class="card-header">
+									Hello world
+								</div>
+								<img src="https://cdn.pixabay.com/photo/2020/03/17/17/08/woman-4941164_1280.jpg" class="card-img-top" alt="work">
+								<div class="card-body">
+									<h5 class="card-title">90 Likes</h5>
+									<p class="card-text">Loving my new job #work #coding </p>
+								</div>
+							</div>
+						</div>
+
+					</div><!-- squaresFull end-->
+					<div class="tab-pane fade show active " id="centersquare" role="tabpanel"
+						aria-labelledby="centersquare">
+						<div class="row">
+							<div class="col-12">
+								<div class="card-columns">
+									<div class="card">
+										<img src="https://cdn.pixabay.com/photo/2020/03/17/17/08/woman-4941164_1280.jpg" class="card-img-top imgMasonry" alt="work">
+									</div>
+									
+										<div class="card">
+										<img src="https://cdn.pixabay.com/photo/2020/08/08/20/41/seagulls-5473897_1280.jpg" class="card-img-top imgMasonry" alt="work">
+									</div>
+                                    <div class="card">
+										<img src="https://cdn.pixabay.com/photo/2020/07/27/17/09/lemur-5442927_1280.jpg" class="card-img-top imgMasonry" alt="work">
+									</div>
+                                    <div class="card">
+										<img src="https://cdn.pixabay.com/photo/2020/04/24/18/02/girl-5087960_1280.jpg" class="card-img-top imgMasonry" alt="work">
+									</div>
+                                     <div class="card">
+										<img src="https://media.giphy.com/media/jsHW64p3l7Vf9uyrLd/giphy.gif" class="card-img-top imgMasonry" alt="work">
+									</div>
+                                    <div class="card">
+										<img src="https://cdn.pixabay.com/photo/2020/04/21/06/41/bulldog-5071407_1280.jpg" class="card-img-top imgMasonry" alt="work">
+									</div>
+										</div> <!--end masonry-->
+								
+										</div>
+									</div>
+								</div>
+							</div><!-- centersquare end-->
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+
+
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+							</div>
+							<div class="modal-body">
+								<div class="form-group">
+									<textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+								</div>
+								<button type="button" class="btn btn-light" data-dismiss="modal"> <span class="material-icons">camera_alt</span></button>
+								<button type="button" class="btn btn-light" data-dismiss="modal"><span class="material-icons">place</span></button>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-success">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+				<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+					integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+					crossorigin="anonymous">
+				</script>
+				<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+					integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+					crossorigin="anonymous">
+				</script>
+				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+					integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+					crossorigin="anonymous">
+				</script>
+</body>
+
+</html>

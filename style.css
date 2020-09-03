@@ -1,0 +1,52 @@
+
+
+.navbar-brand .instaBrand{
+ font-family: 'Grand Hotel', cursive;   
+ font-size: 1.5em ;
+}
+.instaLogo{
+    border-radius: 50px;
+}
+nav  li {
+    list-style-type: none;
+}
+.dropdownColor{
+  color: black;  
+}
+.dropdownColor:hover{
+ color: black;     
+}
+.navTopM{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.navColor{
+    color:grey;
+}
+.navColor:hover, .navColor:active, .navColor.active{
+   background-color: grey !important;
+    color:white;
+}
+/* .nav-pills .nav-link.active{
+ 
+} */
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+}
+#myTabContent{
+background-color: #e2e2e2;
+    position: absolute;
+    width: 100%;
+}
+.cardMasonrySize{
+    width: 45rem;
+    position: absolute;
+    /* margin-left: 30%; */
+    margin: 3% 28% 0% 28%;
+}
+.imgMasonry{
+    width: 95% !important;
+    margin: 2.5%;
+    border-radius: 5px;
+}
